@@ -1,0 +1,58 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-item {
+    list-style-type: none;
+    margin: auto;
+
+}
+
+.name {
+    margin-left: 1em;
+    vertical-align: middle;
+
+}
+
+.nav-item a {
+    text-decoration: none;
+    color : black;
+}
+
+.nav-item a:hover {
+    color: black;
+    text-decoration:underline; 
+    cursor:pointer; 
+}
+
+.nav-list-container {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between; 
+       
+}
+
+.nav-bar {   
+    background-color: #1565C0;
+    display: flex;
+    margin-top: 0%;
+    height: 8vh;
+    justify-content: space-between; 
+}
+
+/* About Section */
+
+#about{
+    height: 100vh;
+    width: auto;
+}
+
+#work{
+    height: 100vh;
+    width: auto;
+}
+#contact{
+    height: 100vh;
+    width: auto;
+}
